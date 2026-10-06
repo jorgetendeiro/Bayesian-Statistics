@@ -14,3 +14,6 @@ library(rstanarm) # allows fitting Bayesian models, the easy way
 bayesreg.output <- stan_glm(y ~ x, family = gaussian(), mydata)
 summary(bayesreg.output)
 plot(bayesreg.output)
+
+# And from here on I wrote some really bad code, I just want to delete it in 
+#  such a way that Git won't complain.
